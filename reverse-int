@@ -1,5 +1,1 @@
-function reverse(n)
-{
-	n = n + "";
-	return n.split("").reverse().join("");
-}
+const reverse = num => parseFloat(num.toString().split('').reverse().join(''))
