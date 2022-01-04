@@ -1,1 +1,3 @@
-const reverse = num => parseFloat(num.toString().split('').reverse().join(''))
+function reverse(num) {
+return parseFloat(num.toString().split('').reverse().join('')) 
+}
